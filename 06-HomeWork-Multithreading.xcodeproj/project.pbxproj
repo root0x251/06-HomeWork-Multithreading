@@ -15,6 +15,7 @@
 		F9C457781E73F209005CE09C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C457761E73F209005CE09C /* LaunchScreen.storyboard */; };
 		F9C457831E73F20A005CE09C /* _6_HomeWork_MultithreadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C457821E73F20A005CE09C /* _6_HomeWork_MultithreadingTests.m */; };
 		F9C4578E1E73F20A005CE09C /* _6_HomeWork_MultithreadingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C4578D1E73F20A005CE09C /* _6_HomeWork_MultithreadingUITests.m */; };
+		F9C457A01E73F2F7005CE09C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C4579F1E73F2F7005CE09C /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F9C457891E73F20A005CE09C /* 06-HomeWork-MultithreadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "06-HomeWork-MultithreadingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C4578D1E73F20A005CE09C /* _6_HomeWork_MultithreadingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_HomeWork_MultithreadingUITests.m; sourceTree = "<group>"; };
 		F9C4578F1E73F20A005CE09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C4579E1E73F2F7005CE09C /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Student.h; path = ../Student.h; sourceTree = "<group>"; };
+		F9C4579F1E73F2F7005CE09C /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = ../Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				F9C4576B1E73F209005CE09C /* AppDelegate.h */,
 				F9C4576C1E73F209005CE09C /* AppDelegate.m */,
+				F9C4579E1E73F2F7005CE09C /* Student.h */,
+				F9C4579F1E73F2F7005CE09C /* Student.m */,
 				F9C4576E1E73F209005CE09C /* ViewController.h */,
 				F9C4576F1E73F209005CE09C /* ViewController.m */,
 				F9C457711E73F209005CE09C /* Main.storyboard */,
@@ -276,6 +281,7 @@
 				F9C457701E73F209005CE09C /* ViewController.m in Sources */,
 				F9C4576D1E73F209005CE09C /* AppDelegate.m in Sources */,
 				F9C4576A1E73F209005CE09C /* main.m in Sources */,
+				F9C457A01E73F2F7005CE09C /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
